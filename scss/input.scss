@@ -5,6 +5,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/Merriweather-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 // Variables
 $background-color:  #165B33;
 
@@ -12,18 +20,29 @@ $text-color: #ffff;
 
 body {
     background-color: $background-color;
-    font-family: 'Smooch';
+    font-family: 'Merriweather';
 }
 
 .main-header {
     color: $text-color;
     font-size: 100px;
     margin: 25px;
+    font-family: 'Smooch';
 }
 
 .tab-container {
     .nav-tabs .nav-link {
-        font-size: 28px;
+        font-size: 30px;
         color: #BB2528;
+        font-family: 'Smooch';
+    }
+
+    .card {
+        padding: 25px;
     }
 }
+
+
+
+
+
