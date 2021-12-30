@@ -7,5 +7,11 @@ The project is a small Christmas project that features gift ideas for those who 
 
 🎄
 
+**Development**
 
+* Windows:
+    * `python -m http.server 9000`
+
+* MacOS:
+    * `live-server .`
 

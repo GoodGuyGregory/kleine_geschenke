@@ -18,6 +18,8 @@ $background-color:  #165B33;
 
 $text-color: #ffff;
 
+#canvas {position: fixed; top:0px; left: 0px;}
+
 body {
     background-color: $background-color;
     font-family: 'Merriweather';
